@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "myio.h"
+/*
+ * Driver:
+ * Usage: ./driver2.out inputfileName outputfileName
+ * -------------------------------------------------
+ * Reads each line and removes the extra space characters between the words and prints the new line into outputfileName.txt.
+ */
 int main(int argc, char *argv[])
 {
     char *inputfileName, *outputfileName, *line;

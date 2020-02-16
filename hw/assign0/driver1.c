@@ -2,7 +2,14 @@
 #include <stdio.h>
 #include "myio.h"
 #include <string.h>
-int main(int argc, char*argv[])
+
+/*
+ * Driver:
+ * Usage: ./driver1.out numberOfIntergers numberOfDoubles numberOfStrings
+ * -------------------------------------------------
+ * Prompts for each input at a time. Prints the largest integer, the largest double, and the longest line (longest string that was entered.).
+ */
+int main(int argc, char *argv[])
 {
     int numberOfIntergers, numberOfDoubles, numberOfStrings, i;
     int maxInt = 0;
