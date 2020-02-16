@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "words.h"
+/*
+ * Driver:
+ * Usage: ./wordcount File_1 File_2 ... File_n
+ * -------------------------------------------------
+ * Counts number of words in multiple text files.
+ */
 int main(int argc, char *argv[])
 {
     char *fileName;
