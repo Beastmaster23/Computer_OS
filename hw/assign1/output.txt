@@ -1,0 +1,2 @@
+Child process for input.txt: number of words is  82
+All 1 files have been counted!
